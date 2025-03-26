@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    #region private
-    private float speed = 10.0f;
-    private float turnSpped = 27.0f;
-    private float horizontalInput;
-    private float forwardInput;
+    #region [SerializeField]
+    [SerializeField] float speed = 10.0f;
+    [SerializeField] float turnSpped = 27.0f;
+    [SerializeField] float horizontalInput;
+    [SerializeField] float forwardInput;
     #endregion
     void Start()
     {
